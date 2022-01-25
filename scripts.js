@@ -49,8 +49,40 @@
 
 'Arrays: Conjuntos de dados que podem ser acesso por um indice'
 
-let idadeFamilia = [26,45,50,17];
-console.log(idadeFamilia);
-console.log(idadeFamilia[2]);
+// let idadeFamilia = [26,45,50,17];
+// console.log(idadeFamilia);
+// console.log(idadeFamilia[2]);
 
-'Functions:'
+'Functions:' 
+//Padrão de Nome = Verbo + Substantivo
+
+// let corSite = "azul";
+
+// function resetaCor(){
+//     corSite = "";
+// };
+
+// console.log(corSite);
+//  resetaCor(); // Para chamar a função.
+// console.log(corSite); // Modificou a variável para sem cor.
+
+
+'Função com passagem de parâmetros e argumentos:'
+let corSite = "azul";
+
+// function resetaCor(cor){
+//     corSite = cor;
+// };
+
+function resetaCor(cor,tonalidade){
+    corSite = cor + " " + tonalidade;
+};
+
+console.log(corSite);
+    resetaCor("vermelho","escuro");
+console.log(corSite);
+
+
+'Tipos de funções:'
+
+
