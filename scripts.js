@@ -49,8 +49,24 @@
 
 'Arrays: Conjuntos de dados que podem ser acesso por um indice'
 
-let idadeFamilia = [26,45,50,17];
-console.log(idadeFamilia);
-console.log(idadeFamilia[2]);
+// let idadeFamilia = [26,45,50,17];
+// console.log(idadeFamilia);
+// console.log(idadeFamilia[0]);
 
-'Functions:'
+'Functions: Tipos'
+
+'Realiza uma tarefa e não retorna nada:'
+// function dizerNome(){
+//     console.log('atanaufo');
+// }
+
+// dizerNome();
+
+'Realiza um cálculo ou operação e retorna algo:'
+function multiplicarPorDois(valor){
+    return valor * 2;
+}
+////console.log(multiplicarPorDois(5));
+// Ou jogando numa variável:
+let resultado = multiplicarPorDois(5);
+console.log(resultado);
